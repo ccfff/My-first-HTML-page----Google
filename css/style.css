@@ -1,8 +1,44 @@
+body{
+}
+
 title {
   color: black;
   font-family: Arail;
 }
-p {
-  color: red;
-  font-family: Arail;
+
+
+img {
+  padding: 200px 500px 10px 500px;
+  width: 200px;
+  height: 70px;
+  position: static;
+}
+
+#input {
+
+}
+
+.button {
+  padding: 10px 500px 10px 500px;
+  font-size: 12px;
+
+}
+
+.addition {
+  padding: 10px 500px 10px 500px;
+}
+
+.addition en {
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.addition a {
+	font-size: 12px;
+	text-decoration: none;
+}
+
+.search {
+  padding: 10px 500px 10px 500px;
+  width: 800px;
 }
