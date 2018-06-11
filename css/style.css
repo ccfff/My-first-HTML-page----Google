@@ -1,44 +1,77 @@
-body{
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 title {
-  color: black;
-  font-family: Arail;
+
 }
 
-
 img {
-  padding: 200px 500px 10px 500px;
+  padding: 200px 200px 10px 300px;
   width: 200px;
   height: 70px;
-  position: static;
 }
 
 #input {
-
+  -web-kit-appearance:none;
+  -moz-appearance: none;
+  outline: none;
+  padding: 13px;
+  width: 600px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  color: #666;
 }
 
 .button {
-  padding: 10px 500px 10px 500px;
-  font-size: 12px;
+  -web-kit-appearance:none;
+  -moz-appearance: none;
+  margin-right: 5px;
+  padding: 12px 200px 12px 280px;
+}
 
+.button input {
+  font-size: 13px;
+  font-family: Times;
+  font-weight: bold;
+  color: #666;
+  padding: 10px 15px 10px 15px;
+}
+
+.button input:hover {
+  border: 1px;
+  border-color: #111;
 }
 
 .addition {
-  padding: 10px 500px 10px 500px;
+  padding: 12px 200px 12px 290px;
 }
 
 .addition en {
-	font-size: 12px;
+	font-size: 13px;
 	text-decoration: none;
 }
 
 .addition a {
-	font-size: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 13px;
 	text-decoration: none;
 }
 
+.addition a:hover {
+  text-decoration: underline;
+}
+
 .search {
-  padding: 10px 500px 10px 500px;
-  width: 800px;
+
+  padding: 12px 100px 12px 90px;
 }
