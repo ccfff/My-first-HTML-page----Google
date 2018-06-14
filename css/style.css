@@ -77,20 +77,33 @@ img {
 }
 
 .addition {
-  padding: 0.8% 42.5%;
+  display: inline;
+
 }
 
-.addition en {
+.addition .offered {
+  padding-top: 2%;
+  padding-left: 42.5%;
 	font-size: 13px;
 	text-decoration: none;
 }
 
-.addition a {
-  padding: 0% 1%;
+.addition .traditional {
+  padding: 0% 0.5%;
   font-size: 14px;
 	text-decoration: none;
 }
 
-.addition a:hover {
+.addition .simplified {
+  padding: 0% 0.5%;
+  font-size: 14px;
+	text-decoration: none;
+}
+
+.addition .traditional:hover {
+  text-decoration: underline;
+}
+
+.addition .simplified:hover {
   text-decoration: underline;
 }
