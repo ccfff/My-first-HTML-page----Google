@@ -6,7 +6,6 @@ html {
 
 body {
   width: 100%;
-  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -15,35 +14,29 @@ title {
 }
 
 img {
-  padding: 198px 260px 10px 263px;
-  width: 273px;
-  height: 93px;
+  margin: 11.5% 0% 0% 42%;
+  width: 16%;
 }
 
-#input {
+.search {
+  margin: 1.4% 30% 1% 33%;
+}
+
+.search-input {
   outline: none;
-  padding: 13.5px;
-  width: 550px;
+  padding: 2.2%;
+  width: 88%;
   border-radius: 2px;
   border: 1px solid #dddd;
   box-shadow: 0 0.8px 0.5px 0.5px #ccc;
 }
 
-#input:hover {
+.search-input:hover {
   box-shadow: 0 1px 0.8px 0.8px #ccc;
 }
 
-.button {
-  margin-right: 8px;
-  padding: 15px 200px 15px 263px;
-}
-
-.button:hover {
-  outline-color: #111;
-  border-color: #111;
-}
-
-.button input {
+.button .buttonSearch {
+  margin: 1% 42%;
   font-size: 13px;
   font-family: inherit;
   font-weight: bold;
@@ -51,10 +44,31 @@ img {
   border-radius: 2px;
   background-color: #eeeeee;
   color: #777;
-  padding: 10px 17px 10px 17px;
+  padding: 0.5% 1%;
+  margin-right: 0.3%;
 }
 
-.button input:hover {
+.button .buttonLucky {
+  font-size: 13px;
+  font-family: inherit;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  background-color: #eeeeee;
+  color: #777;
+  padding: 0.5% 1%;
+
+}
+
+.button .buttonSearch:hover {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #cccccc;
+  background-color: #eeeeee;
+  color: #000;
+}
+
+.button .buttonLucky:hover {
   border-style: solid;
   border-width: 1px;
   border-color: #cccccc;
@@ -63,26 +77,20 @@ img {
 }
 
 .addition {
-  padding: 15px 200px 15px 270px;
+  padding: 0.8% 42.5%;
 }
 
 .addition en {
 	font-size: 13px;
 	text-decoration: none;
-
 }
 
 .addition a {
-  margin-left: 3px;
-  margin-right: 3px;
-  font-size: 13.5px;
+  padding: 0% 1%;
+  font-size: 14px;
 	text-decoration: none;
 }
 
 .addition a:hover {
   text-decoration: underline;
-}
-
-.search {
-  padding: 15px 130px 15px 112px;
 }
