@@ -36,7 +36,7 @@ img {
 }
 
 .button .buttonSearch {
-  margin: 1% 42%;
+  margin: 1% 42% 2% 42%;
   font-size: 13px;
   font-family: inherit;
   font-weight: bold;
@@ -78,7 +78,6 @@ img {
 
 .addition {
   display: inline;
-
 }
 
 .addition .offered {
@@ -89,13 +88,13 @@ img {
 }
 
 .addition .traditional {
-  padding: 0% 0.5%;
+  padding: 0% 0.3%;
   font-size: 14px;
 	text-decoration: none;
 }
 
 .addition .simplified {
-  padding: 0% 0.5%;
+  padding: 0% 0.3%;
   font-size: 14px;
 	text-decoration: none;
 }
